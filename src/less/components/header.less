@@ -13,9 +13,10 @@ header {
 }
 
 .title {
-    float: left;
-    margin: 0;
-
+    margin: 21px 0 0 0;
+    h1 {
+        font-size: 36px;
+    }
     @media screen and (max-width: @screen-xs-max) {
       float: none;
       text-align: center;
@@ -33,27 +34,28 @@ header {
 }
 
 .title h2 {
-    padding: @padding-small-vertical @padding-base-vertical;
+    padding: @padding-small-vertical 0;
     font-weight: normal;
 }
 
-.header-qrcode {
-    float: left;
+.figure-img {
+    float: right;
     margin: 0;
+    width: 145px;
+    height: 187px;
 }
 
 address {
-    padding-top: 16px;
-    float: right;
     .float-container();
 }
 
 header .contact {
     float: left;
     margin: 0;
-    padding-left: @padding-large-horizontal;
-    @media print or (max-width: @screen-xs-max) {
+    padding-left: 0;
+    @media screen and (max-width: @screen-xs-max) {
       float: none;
+      text-align: center;
       margin-top: @padding-large-vertical;
       padding-left: @padding-xs-horizontal;
     }
@@ -63,7 +65,7 @@ header .contact li {
     list-style-type: none;
     font-style: normal;
     line-height: 1.4;
-    font-size: @font-size-medium;
+    font-size: @font-size-small;
     word-break: break-all;
 }
 

@@ -7,7 +7,7 @@ mixin email(addr)
 
 mixin github(data)
   li.contact-github&attributes(attributes)
-    a(href="https://github.com/" + data.id)= "https://github.com/" + data.id
+    a(href="https://github.com/" + data.id target="_blank")= "https://github.com/" + data.id
 
 mixin blog(data)
   li.contact-blog&attributes(attributes)
@@ -16,6 +16,9 @@ mixin blog(data)
 mixin qrcode(data)
   img.qrcode-img(src=data.qrcode, alt=data.id)&attributes(attributes)
 
+mixin figure(image)
+  img.figure-img(src=image, alt='照片')&attributes(attributes)
+    
 mixin responsive(mixin_name, data, res_class)
   +#{mixin_name}(data)(class=res_class)
 
@@ -89,9 +92,9 @@ mixin experience_title_project(item)
   span.experience-project-type= project_type[item.project_type]
   span.experience-title-aside
     if item.source
-      a.experience-project-link(href=item.source)= dict.source_code
+      a.experience-project-link(href=item.source target="_blank")= dict.source_code
     if item.demo
-        a.experience-project-link(href=item.demo)= dict.demo
+        a.experience-project-link(href=item.demo target="_blank")= dict.demo
 
 mixin experience_content_project(item)
 

@@ -4,6 +4,7 @@
   "resume_title": "刘焯鹏 - 个人简历",
   "name": "刘焯鹏",
   "repo": "https://github.com/joyeecheung/resume.git",
+  "figure": "static/figure.jpg",
   "job_description": ["前端工程师", "软件工程师"],
   "contact": {
     "phone": "13532012981",
@@ -12,7 +13,6 @@
       "id": "natsu_12",
       "qrcode": "static/wechat.svg"
     },
-    
     "github": {
       "id": "natsu12"
     },
@@ -20,7 +20,11 @@
       "url": "http://www.cnblogs.com/natsu12"
     }
   },
-  "links": [],
+  "links": [{
+    "type": "pdf",
+    "url": "static/liuzhuopeng.pdf"
+
+  }],
   "education": [{
     "type": "undergraduate",
     "name": "中山大学",

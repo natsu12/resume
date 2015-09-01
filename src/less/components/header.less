@@ -13,8 +13,7 @@ header {
 }
 
 .title {
-    float: right;
-    text-align: right;
+    float: left;
     margin: 0;
 
     @media screen and (max-width: @screen-xs-max) {
@@ -44,6 +43,8 @@ header {
 }
 
 address {
+    padding-top: 16px;
+    float: right;
     .float-container();
 }
 
@@ -77,6 +78,4 @@ header a:hover, header a:active {
 .set-li-icon(contact-phone, @fa-var-phone);
 .set-li-icon(contact-email, @fa-var-envelope);
 .set-li-icon(contact-github, @fa-var-github-square);
-.set-li-icon(contact-sinaweibo, @fa-var-weibo);
 .set-li-icon(contact-blog, @fa-var-rss);
-.set-li-icon(contact-wechat, @fa-var-wechat);

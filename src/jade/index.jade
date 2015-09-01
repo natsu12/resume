@@ -40,13 +40,6 @@ block skills
           span.skills-type= skill_type[item.type]
         +#{"skills_" + item.type}(item)
 
-
-block links
-    ul.links
-      each link in links
-        li.link
-          a(href=link.url)= link_type[link.type]
-
 block repo
   p
     | This resume is generated with Gulp, Less and Jade by 

@@ -40,6 +40,6 @@ module.exports = {
         demo: "Demo"
     },
     project_type: {
-        "personal": "个人项目"
+        "course": "课程团队项目"
     }
 };

@@ -71,7 +71,7 @@
     "name": "Activitee",
     "source": "https://github.com/natsu12/Activitee",
     "description": [
-      "一个校园活动信息平台",
+      "一个校园活动的信息收集平台",
       "基于 `Express` 与 `MongoDB` 实现，使用 `Grunt` 驱动工作流",
       "担任**项目组长**，负责整个项目的**需求设计**以及**前端开发**"
     ],

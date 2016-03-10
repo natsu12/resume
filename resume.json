@@ -54,14 +54,27 @@
   "experience": [{
     "type": "internship",
     "techtype": "frontend",
-    "place": "MWL现代互联网应用实验室",
-    "start": "2014.10",
-    "end": "至今",
+    "place": "中山大学现代互联网应用实验室",
+    "start": "2015.7",
+    "end": "2015.8",
     "name": "前端开发",
     "description": [
-      "参与**@+ Mobile Web**项目，负责实现**微信第三方登陆**功能",
-      "参与**b+框架**项目，负责开发**日期控件**",
-      "参与**电控云ECCW**项目，负责开发**会签组件**"
+      "参与**电控云ECCW**项目，它是一个为家电企业提供的协同工作平台，研发工程师可以在这里完成研发工作",
+      "负责实现**会签（评审）功能**，具体指评审者检视工程师的工作成果，给出自己的意见，并决定是否通过",
+      "负责对该功能的**交互设计**以及**前端开发**"
+    ],
+    "stack": ["meteor", "express", "jquery", "grunt", "sass"]
+  }, {
+    "type": "internship",
+    "techtype": "frontend",
+    "place": "Web2.0程序设计",
+    "start": "2015.9",
+    "end": "2016.1",
+    "name": "课程助教",
+    "description": [
+      "该课程教授Web前端技能，包括搭建静态页面、开发交互特效、异步等知识，涉及少量后台内容",
+      "担任**课程助教**，负责课后答疑解惑，作业批改和评讲，实验课补充知识讲解",
+      "该课程本人的成绩为**95**，排名**4/86**"
     ],
     "stack": ["meteor", "express", "jquery", "grunt", "sass"]
   }, {
@@ -71,7 +84,7 @@
     "name": "Activitee",
     "source": "https://github.com/natsu12/Activitee",
     "description": [
-      "一个校园活动的信息收集平台",
+      "一个校园活动的信息收集平台，用户可以通过此平台浏览和发布校园活动信息",
       "基于 `Express` 与 `MongoDB` 实现，使用 `Grunt` 驱动工作流",
       "担任**项目组长**，负责整个项目的**需求设计**以及**前端开发**"
     ],
@@ -89,16 +102,16 @@
     }, {
       "summary": "`JavaScript`",
       "description": [
-        "熟悉 `JavaScript`，掌握 `作用域、原型、闭包` 等概念，了解一些基本的 `JavaScript设计模式`",
+        "熟悉 `JavaScript`，掌握**作用域、原型、闭包**等概念，了解一些基本的**JavaScript设计模式**",
         "熟练 `DOM` 的相关操作，能够较为熟练地使用 `JavaScript` 编写页面的交互功能",
-        "熟悉 `Ajax` 技术，了解 `异步编程`"
+        "熟悉 `Ajax` 技术，了解**异步编程**"
       ]
     }, {
       "summary": "前端工程实践",
       "description": [
         "熟悉 `jQuery` 框架的使用",
-        "比较了解 `Bootstrap` / `Semantic UI` / `Materialize` 等前端样式框架的使用",
-        "熟悉 `Meteor` 框架，在实验室项目中大量使用",
+        "了解 `Bootstrap` / `Semantic UI` / `Materialize` 等前端样式框架的使用",
+        "使用过 `Meteor` / `AngularJS` 编写简单的CRUD SPA",
         "在项目中使用过 `Less` / `Sass` / `LiveScript` 等预处理语言",
         "在项目中使用过 `Grunt` 驱动工作流"
       ]

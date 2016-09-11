@@ -34,7 +34,8 @@
     "honor": [
       "2013 - 2014 学年度本科生优秀学生奖学金**二等奖**",
       "2014 - 2015 学年度本科生优秀学生奖学金**二等奖**"
-    ]
+    ],
+    "language": "CET-6 **587**"
   }],
   "language": [{
     "type": "english",
@@ -54,41 +55,58 @@
   "experience": [{
     "type": "internship",
     "techtype": "frontend",
-    "place": "中山大学现代互联网应用实验室",
-    "start": "2015.7",
-    "end": "2015.8",
-    "name": "前端开发",
-    "description": [
-      "参与**电控云ECCW**项目，它是一个为家电企业提供的协同工作平台，研发工程师可以在这里完成研发工作",
-      "负责实现**会签（评审）功能**，具体指评审者检视工程师的工作成果，给出自己的意见，并决定是否通过",
-      "负责对该功能的**交互设计**以及**前端开发**"
-    ],
-    "stack": ["meteor", "express", "jquery", "grunt", "sass"]
-  }, {
+    "place": "网易游戏",
+    "start": "2016.7",
+    "end": "2016.8",
+    "project": [{
+      "name": "运维开发工程师",
+      "description": [
+        "负责**运维 App** SA Box 的开发。满足移动运维的需要，解决运维人员日常查询和对通知报警的确认和处理",
+        "解决接入 `OpenID Connect` 登录和 `iOS 消息推送` 的技术难题",
+        "基于 `React Native`，负责整个 App 的**客户端开发**和部分服务端程序"
+      ],
+      "stack": ["angular", "material", "jquery", "grunt", "sass"]
+    }]
+  },{
     "type": "internship",
     "techtype": "frontend",
-    "place": "Web2.0程序设计",
-    "start": "2015.9",
-    "end": "2016.1",
-    "name": "课程助教",
-    "description": [
-      "该课程教授Web前端技能，包括搭建静态页面、开发交互特效、异步等知识，涉及少量后台内容",
-      "担任**课程助教**，负责课后答疑解惑，作业批改和评讲，实验课补充知识讲解",
-      "该课程本人的成绩为**95**，排名**4/86**"
-    ],
-    "stack": ["meteor", "express", "jquery", "grunt", "sass"]
-  }, {
-    "type": "project",
+    "place": "中山大学现代互联网应用实验室",
+    "start": "2015.7",
+    "end": "至今",
+    "project": [{
+      "name": "消融诊疗信息系统",
+      "description": [
+        "它服务于中山大学附属第六医院超声科，用于记录、查询和分析病患的消融诊疗信息，包括各种检查数据和各项治疗记录",
+        "基于 `AngularJS`，负责各个治疗记录页面、检查记录页面的**前端开发**"
+      ],
+      "stack": ["angular", "material", "jquery", "grunt", "sass"]
+    }, {
+      "name": "电子控制系统研发云",
+      "description": [
+        "它是一个为家电企业提供的协同工作平台，基于 `MeteorJS` ，研发工程师可以在这里完成研发工作",
+        "负责实现**评审功能**，具体指评审者检视工程师的工作成果，给出自己的意见，并决定是否通过",
+        "负责对该功能的**交互设计**以及**前端开发**"
+      ],
+      "stack": ["meteor", "jquery", "grunt", "sass"]
+    }]
+  },
+  {
+    "type": "internship",
     "techtype": "frontend",
-    "project_type": "course",
-    "name": "Activitee",
-    "source": "https://github.com/natsu12/Activitee",
-    "description": [
-      "一个校园活动的信息收集平台，用户可以通过此平台浏览和发布校园活动信息",
-      "基于 `Express` 与 `MongoDB` 实现，使用 `Grunt` 驱动工作流",
-      "担任**项目组长**，负责整个项目的**需求设计**以及**前端开发**"
-    ],
-    "stack": ["jade", "less", "grunt", "mongodb", "express"]
+    "place": "课程团队项目",
+    "start": "2015.5",
+    "end": "2015.6",
+    "project": [{
+      "name": "Activitee",
+      "description": [
+        "一个校园活动的信息收集平台，用户可以通过此平台浏览和发布校园活动信息",
+        "基于 `Express` 与 `MongoDB` 实现，使用 `Grunt` 驱动工作流",
+        "担任**项目组长**，负责整个项目的**需求设计**以及**前端开发**"
+      ],
+      "stack": ["jade", "less", "grunt", "mongodb", "express"]
+
+    }]
+
   }],
   "skills": [{
     "type": "frontend",
@@ -123,13 +141,11 @@
       "description": [
         "能够使用 `Express` 搭建简单的后端程序与数据库交互、渲染模板"    
       ]
+    },{
+      "summary": "`Python`",
+      "description": [
+        "能够使用 `Flask` 搭建简单的后端程序，接受客户端的请求"    
+      ]
     }]
-  }, {
-    "type": "miscellaneous",
-    "item": [
-      "分别在 `Windows` / `Linux` / `OS X` 系统下都有过开发经验，熟悉常用命令与配置",
-      "有使用 `MongoDB` / `MySQL` 数据库的经验",
-      "日常使用 `Git` 与 `Sublime Text` 进行开发"
-    ]
   }]
 }
